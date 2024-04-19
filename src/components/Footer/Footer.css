@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background: #FFFFFF80; 
+    border-radius: 20px;
+    border: 1px solid #DF5E54;
+   
+  }
+
+  .footer span {
+    margin-left: 10px; 
+    font-weight: bold;
+  }
+
+  .footer .button-container {
+    color: #fff
+  }
+  

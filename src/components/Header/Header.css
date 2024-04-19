@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background: #FFFFFF80; 
+    border-radius: 20px;
+    border: 1px solid #DF5E54;
+    
+  }
+  
+  
+  .phone-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .phone-container span {
+    margin-left: 10px; 
+  }
+  
