@@ -1,45 +1,36 @@
+
 import React from 'react'
+import ImageCouch from './images/section4/Couch.png'
 
 
 export const Section4 = () => {
   return (
-    <div style={{display: 'flex', flexDirection: 'row', marginTop: 24, alignItems: 'center', gap: 6}}>
-        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center',   width: '287px',
-        height: '197px', backgroundColor: '#FFFFFF', borderRadius: '12px', padding: '24px', boxShadow: '0px 0px 6px rgba(0, 0, 0, 0.25)'}}>
-            <span style={{ fontSize: 16, fontWeight: 700, color: '#222222'}}>Jorge Marin</span>
-            <div style={{display: 'flex', flexDirection: 'row', marginTop: 12,}}>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16, marginRight: 8}}/>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16, marginRight: 8}}/>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16, marginRight: 8}}/>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16, marginRight: 8}}/>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16}}/>
-            </div>
-            <span style={{fontSize: 12, fontWeight: 400, color: '#222222', marginTop: 12}}>"Con Dikala, la venta de mi piso fue increíblemente fluida. Destacan por su transparencia y su compromiso con el cliente. ¡Gracias por una experiencia sin sobresaltos!"</span>
+    <div style={{display: 'flex',marginTop:32, position: 'relative',}}>
+      <div style={{display: 'flex', flexDirection: 'row', justifyContent:'center',  alignItems: 'center' }}>
+        <div style={{ display: 'flex', flexDirection: 'column',  position:'absolute', top: 0, left: 110, width: 260, height: 134, borderRadius: 12, border: '1px solid #FE7469', background:'#FFE4E2', justifyContent: 'center', alignItems: 'center', zIndex: 99 }}>
+          <h2 style={{fontSize:40, fontWeight: 700, color: '#FE7469', margin: 0 }}>Compra</h2>
+          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+            <span style={{marginTop:0, fontSize: 14, color: '#222222'}}>El espacio que</span>
+            <span style={{marginTop:0, fontSize: 14, color: '#222222'}}>refleja tu estilo</span>
+          </div>
         </div>
-        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center',   width: '335px',
-        height: '237px', backgroundColor: '#FFFFFF', borderRadius: '12px', padding: '24px', boxShadow: '0px 0px 6px rgba(0, 0, 0, 0.25)'}}>
-            <span style={{ fontSize: 16, fontWeight: 700, color: '#222222'}}>Luisa Jiménez</span>
-            <div style={{display: 'flex', flexDirection: 'row', marginTop: 12,}}>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16, marginRight: 8}}/>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16, marginRight: 8}}/>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16, marginRight: 8}}/>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16, marginRight: 8}}/>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16}}/>
-            </div>
-            <span style={{fontSize: 12, fontWeight: 400, color: '#222222', marginTop: 12}}>"Vender mi apartamento con Dikala fue una experiencia sin igual. La rapidez y la claridad del proceso me impresionaron. Recomiendo su servicio a cualquiera que busque eficacia y profesionalismo."</span>
+        <div style={{ display: 'flex', flexDirection: 'column',  position:'absolute', top: 0, left: 400, width: 260, height: 134, borderRadius: 12, border: '1px solid #FE7469', background:'#FFE4E2', justifyContent: 'center', alignItems: 'center', zIndex: 99 }}>
+          <h2 style={{fontSize:40, fontWeight: 700, color: '#FE7469', margin: 0 }}>Alquila</h2>
+          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+            <span style={{marginTop:0, fontSize: 14, color: '#222222'}}>Tu lugar ideal</span>
+            <span style={{marginTop:0, fontSize: 14, color: '#222222'}}>en la zona que amas</span>
+          </div>
         </div>
-        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center',   width: '287px',
-        height: '197px', backgroundColor: '#FFFFFF', borderRadius: '12px', padding: '24px', boxShadow: '0px 0px 6px rgba(0, 0, 0, 0.25)'}}>
-            <span style={{ fontSize: 16, fontWeight: 700, color: '#222222'}}>Carla Rodriguez</span>
-            <div style={{display: 'flex', flexDirection: 'row', marginTop: 12,}}>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16, marginRight: 8}}/>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16, marginRight: 8}}/>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16, marginRight: 8}}/>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16, marginRight: 8}}/>
-                <img src={require('./images/section4/Star.png')} alt="Star" style={{width: 16, height: 16}}/>
-            </div>
-            <span style={{fontSize: 12, fontWeight: 400, color: '#222222', marginTop: 12}}>"La dedicación de Dikala para con sus clientes es admirable. Me guiaron por cada paso, asegurando una venta rápida y beneficiosa. ¡Servicio de primera!"</span>
+        <div style={{ display: 'flex', flexDirection: 'column',  position:'absolute', top: 0, left: 690, width: 260, height: 134, borderRadius: 12, border: '1px solid #FE7469', background:'#FFE4E2', justifyContent: 'center', alignItems: 'center', zIndex: 99 }}>
+          <h2 style={{fontSize:40, fontWeight: 700, color: '#FE7469', margin: 0 }}>Hipoteca</h2>
+          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+            <span style={{marginTop:0, fontSize: 14, color: '#222222'}}>Descubre tu plan</span>
+            <span style={{marginTop:0, fontSize: 14, color: '#222222'}}>de pago ideal</span>
+
+          </div>
         </div>
+      </div>
+      <img src={ImageCouch} alt="Hug" style={{display: 'flex', marginTop: 80}}/>
     </div>
   )
 }

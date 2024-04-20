@@ -5,7 +5,7 @@ import { Section2 } from './Section2'
 import { Section3 } from './Section3'
 import { Section4 } from './Section4'
 import { Section5 } from './Section5'
-import { SectionFAQ } from '../../components/SectionFAQ/SectionFAQ'
+import { SectionFAQCompra } from '../../components/SectionFAQCompra/SectionFAQCompra'
 import { SectionFooter } from '../../components/SectionFooter/SectionFooter'
 
 export const Compra = () => {
@@ -37,7 +37,7 @@ export const Compra = () => {
       </SectionContainer>
     </div>
     <div style={{display:'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', background:'#606060'}}>
-      <SectionFAQ/>
+      <SectionFAQCompra/>
     </div>
     <SectionFooter/>
     </>
