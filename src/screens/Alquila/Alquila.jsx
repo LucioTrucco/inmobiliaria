@@ -3,36 +3,31 @@ import { SectionContainer } from '../../components/SectionContainer/SectionConta
 import { Section1 } from './Section1'
 import { Section2 } from './Section2'
 import { Section3 } from './Section3'
-import { Section4 } from './Section4'
 import { SectionFooter } from '../../components/SectionFooter/SectionFooter'
-import { SectionFAQVende } from '../../components/SectionFAQVende/SectionFAQVende'
+import { SectionFAQAlquila } from '../../components/SectionFAQAlquila/SectionFAQAlquila'
 
-export const Vende = ({scrollToTop}) => {
+export const Alquila = ({scrollToTop}) => {
   return (
     <>
     <div style={{display:'flex', alignItems: 'center', justifyContent: 'center', height: '100vh'}}>
-      <SectionContainer title={'¿Cómo se vende?'} >
+      <SectionContainer title={'¿Cómo funciona el proceso de alquiler?'} description={'Selecciona las características, precios y ubicaciones que prefieras.'}>
         <Section1/>
       </SectionContainer>
     </div>
     <div style={{display:'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', background: '#f7f7f7'}}>
-      <SectionContainer title={'¿Por qué vender con Dikala?'} description={'Transformamos el método de vender tu casa'}>
+      <SectionContainer title={'¿Por qué alquilar con Dikala?'} description={'Conoce tus opciones sin compromiso, gastos adicionales y todo de manera ágil y online'}>
         <Section2/>
       </SectionContainer>
     </div>
     <div style={{display:'flex', alignItems: 'center', justifyContent: 'center', height: '100vh',}}>
-    <SectionContainer title={'Esto dicen nuestros clientes'} description={'Transformamos el método de vender tu casa'}>        
+    <SectionContainer title={'Servicios adicionales'} description={'Optimiza tu cambio de residencia con nuestro soporte integral.'}>        
       <Section3/>
     </SectionContainer>
     </div>
-    <div style={{display:'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', background: '#f7f7f7'}}>
-      <SectionContainer title={'¿Qué más puedes hacer con nosotros?'} description={'Disfruta el cambio de casa sin estrés.'}>
-        <Section4/>
-      </SectionContainer>
-    </div>
+    
     
     <div style={{display:'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', background:'#606060'}}>
-      <SectionFAQVende/>
+      <SectionFAQAlquila/>
     </div>
       <SectionFooter scrollToTop={scrollToTop}/>
     </>

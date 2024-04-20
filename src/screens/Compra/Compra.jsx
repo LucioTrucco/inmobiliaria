@@ -8,7 +8,7 @@ import { Section5 } from './Section5'
 import { SectionFAQCompra } from '../../components/SectionFAQCompra/SectionFAQCompra'
 import { SectionFooter } from '../../components/SectionFooter/SectionFooter'
 
-export const Compra = () => {
+export const Compra = ({scrollToTop}) => {
   return (
     <>
     <div style={{display:'flex', alignItems: 'center', justifyContent: 'center', height: '100vh'}}>
@@ -39,7 +39,7 @@ export const Compra = () => {
     <div style={{display:'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', background:'#606060'}}>
       <SectionFAQCompra/>
     </div>
-    <SectionFooter/>
+      <SectionFooter scrollToTop={scrollToTop}/>
     </>
   )
 }

@@ -5,9 +5,19 @@ import { Footer } from '../../components/Footer/Footer.jsx';
 import { ViewBoxHome } from './components/ViewBoxHome/ViewBoxHome.jsx';
 import {Compra} from './../Compra/Compra.jsx'
 import { Vende } from '../Vende/Vende.jsx';
+import { Alquila } from '../Alquila/Alquila.jsx';
 
 export const HomeScreen = () => {
   const [selectedValue, setSelectedValue] = useState('Compra');
+
+    const scrollToTop = (value) => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // for smooth scrolling
+      });
+      setSelectedValue(value)
+    }
+  
 
   return (
     <div className='scroll-container'>
@@ -15,11 +25,12 @@ export const HomeScreen = () => {
         <div className='content-container'>
           <Header />
           <ViewBoxHome selectedValue={selectedValue} setSelectedValue={setSelectedValue} />
-          <Footer />
+          <Footer selectedValue={selectedValue} />
         </div>
       </div>
-    {selectedValue === 'Compra' ? <Compra /> : null}
-    {selectedValue === 'Vende' ? <Vende /> : null}
+    {selectedValue === 'Compra' ? <Compra scrollToTop={scrollToTop} /> : null}
+    {selectedValue === 'Vende' ? <Vende scrollToTop={scrollToTop}/> : null}
+    {selectedValue === 'Alquila' ? <Alquila scrollToTop={scrollToTop}/> : null}
       
      
     </div>

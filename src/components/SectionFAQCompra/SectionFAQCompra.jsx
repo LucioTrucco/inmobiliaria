@@ -42,16 +42,16 @@ export const SectionFAQCompra = () => {
                         Nuestros inmuebles están en diversas condiciones, desde listos para entrar a vivir hasta opciones ideales para quienes deseen realizar reformas personalizadas.
                     </span>
                     <span style={{fontSize: 12, fontWeight: 400, color: '#FFFFFF', textAlign: 'left', marginTop:12}}>
-                        Inmuebles para renovar: Te ofrecemos viviendas a precios accesibles, ideales para aquellos que desean personalizar su espacio completamente y hacerlo suyo, con la posibilidad de invertir en su potencial.
+                        • Inmuebles para renovar: Te ofrecemos viviendas a precios accesibles, ideales para aquellos que desean personalizar su espacio completamente y hacerlo suyo, con la posibilidad de invertir en su potencial.
                     </span>
                     <span style={{fontSize: 12, fontWeight: 400, color: '#FFFFFF', textAlign: 'left',marginTop:12}}>
-                        Inmuebles en condiciones óptimas: Contamos con casas y apartamentos que no requieren reformas adicionales y están listos para mudarse de inmediato.
+                        • Inmuebles en condiciones óptimas: Contamos con casas y apartamentos que no requieren reformas adicionales y están listos para mudarse de inmediato.
                     </span>
                     <span style={{fontSize: 12, fontWeight: 400, color: '#FFFFFF', textAlign: 'left',marginTop:12}}>
-                        Inmuebles totalmente reformados: Estas viviendas han sido transformadas completamente, con mejoras en la distribución y modernización de materiales y acabados, diseñadas por los arquitectos de Dikala para maximizar la comodidad, la eficiencia energética y la sostenibilidad.
+                        • Inmuebles totalmente reformados: Estas viviendas han sido transformadas completamente, con mejoras en la distribución y modernización de materiales y acabados, diseñadas por los arquitectos de Dikala para maximizar la comodidad, la eficiencia energética y la sostenibilidad.
                     </span>
                     <span style={{fontSize: 12, fontWeight: 400, color: '#FFFFFF', textAlign: 'left',marginTop:12}}>
-                        Inmuebles parcialmente rehabilitados: Ofrecemos propiedades con renovaciones selectivas, especialmente en áreas como cocinas y baños, lo que les proporciona una actualización significativa sin la necesidad de una reforma total
+                        • Inmuebles parcialmente rehabilitados: Ofrecemos propiedades con renovaciones selectivas, especialmente en áreas como cocinas y baños, lo que les proporciona una actualización significativa sin la necesidad de una reforma total
                     </span>
                 </div>}
                 {selectedQuestion === 4 && <div style={{display: 'flex', flexDirection: 'column',maxWidth: 550}}>
@@ -67,13 +67,13 @@ export const SectionFAQCompra = () => {
                     Aspectos clave al comprar una vivienda:
                     </span>
                     <span style={{fontSize: 12, fontWeight: 400, color: '#FFFFFF', textAlign: 'left',marginTop:12}}>
-                        - Ahorros: Si requieres financiación hipotecaria, usualmente necesitarás al menos el 30% del precio de compra en ahorros, además de demostrar estabilidad financiera para la aprobación del préstamo.
+                        • Ahorros: Si requieres financiación hipotecaria, usualmente necesitarás al menos el 30% del precio de compra en ahorros, además de demostrar estabilidad financiera para la aprobación del préstamo.
                     </span>
                     <span style={{fontSize: 12, fontWeight: 400, color: '#FFFFFF', textAlign: 'left',marginTop:12}}>
-                        - Visitas y tiempo: La compra de una vivienda requiere dedicación para la búsqueda y el proceso de compra. En Dikala, nuestras visitas virtuales te ayudan a optimizar este tiempo.
+                        • Visitas y tiempo: La compra de una vivienda requiere dedicación para la búsqueda y el proceso de compra. En Dikala, nuestras visitas virtuales te ayudan a optimizar este tiempo.
                     </span>
                     <span style={{fontSize: 12, fontWeight: 400, color: '#FFFFFF', textAlign: 'left',marginTop:12}}>
-                        - Documentación: Es vital tener la documentación adecuada, como la nota simple del Registro de la Propiedad y la información catastral, que verifiquen la legalidad y el estado de la propiedad. En Dikala, nos aseguramos de que toda la documentación esté correcta y actualizada para tu tranquilidad. Además, para la financiación, podemos requerir documentos adicionales como nóminas o declaraciones fiscales para evaluar tu solvencia.
+                        • Documentación: Es vital tener la documentación adecuada, como la nota simple del Registro de la Propiedad y la información catastral, que verifiquen la legalidad y el estado de la propiedad. En Dikala, nos aseguramos de que toda la documentación esté correcta y actualizada para tu tranquilidad. Además, para la financiación, podemos requerir documentos adicionales como nóminas o declaraciones fiscales para evaluar tu solvencia.
                     </span>
 
                 </div>}

@@ -5,7 +5,7 @@ import Pin from './images/Pin.png'
 import Mail from './images/Mail.png'
 
 
-export const SectionFooter = () => {
+export const SectionFooter = ({scrollToTop}) => {
   return (
     <div className='body-background'>
         <div className='content-container' style={{display:'flex',flexDirection: 'row', alignItems: 'center', margin: '0px 140px'}}>
@@ -43,10 +43,10 @@ export const SectionFooter = () => {
           </div>
             <div style={{display:'flex', flexDirection: 'column', alignItems: 'flex-start', height: 370}}>
                 <span style={{fontSize: 20, fontWeight: 700, color: '#FFFFFF',}}>DESCÚBRENOS</span>
-                <span style={{fontSize: 16, color: '#FFFFFF', marginTop: 16}}>Vende tu casa</span>
-                <span style={{fontSize: 16, color: '#FFFFFF', marginTop: 16}}>Compra tu vivienda</span>
-                <span style={{fontSize: 16, color: '#FFFFFF', marginTop: 16}}>Alquilar con Dikala</span>
-                <span style={{fontSize: 16, color: '#FFFFFF', marginTop: 16}}>Consigue tu hipoteca</span>
+                <span onClick={()=> scrollToTop('Vende')} style={{fontSize: 16, color: '#FFFFFF', marginTop: 16}}>Vende tu casa</span>
+                <span onClick={()=> scrollToTop('Compra')}style={{fontSize: 16, color: '#FFFFFF', marginTop: 16}}>Compra tu vivienda</span>
+                <span onClick={()=> scrollToTop('Alquila')}style={{fontSize: 16, color: '#FFFFFF', marginTop: 16}}>Alquilar con Dikala</span>
+                {/* <span style={{fontSize: 16, color: '#FFFFFF', marginTop: 16}}>Consigue tu hipoteca</span> */}
                 <span style={{fontSize: 16, color: '#FFFFFF', marginTop: 16}}>Vendemos por ti</span>
                 <span style={{fontSize: 16, color: '#FFFFFF', marginTop: 16}}>Visita virtual</span>
             </div>

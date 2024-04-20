@@ -1,0 +1,10 @@
+.scroll-container-contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url('./ContactBG.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+  height: 100vh;
+}
