@@ -1,12 +1,11 @@
 .scroll-container {
-  /* scroll-snap-type: y mandatory; */
   overflow-y: scroll;
   height: 100vh;
 }
 
 .body-background {
   height: 100vh;
-  background-image: url('./../../assets/backgroundImage.png');
+  background-image: url('./../../assets/SectionFooter.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

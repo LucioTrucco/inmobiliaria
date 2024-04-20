@@ -6,7 +6,7 @@ import Step3 from './images/section1/Step3.png'
 export const Section1 = () => {
   return (
     <div style={{display: 'flex', flexDirection: 'row', justifyContent:'space-between', marginTop: '24px', gap: 46}}>
-      <div style={{display: 'flex', flexDirection: 'column', position: 'relative', padding: '24px'}}>
+      <div style={{display: 'flex', flexDirection: 'column', position: 'relative', padding: '24px', alignItems: 'center'}}>
             <div style={{
                 position: 'absolute',
                 left: 0,
@@ -21,10 +21,10 @@ export const Section1 = () => {
             }}>
                 <span style={{color: '#FE7469', fontSize: 20, fontWeight: 700}}>1</span>
             </div>
-            <img src={Step1} alt="Step1" />
-            <span style={{fontSize: 16, fontWeight: 700, color: '#222222', marginTop: 16}}>Descubre tu hogar ideal</span>
+            <img src={Step1} alt="Step1" style={{width: 192, height: 173}}/>
+            <span style={{fontSize: 16, fontWeight: 700, color: '#222222', marginTop: 24}}>Descubre tu hogar ideal</span>
         </div>
-        <div style={{display: 'flex', flexDirection: 'column', position: 'relative', padding: '24px'}}>
+        <div style={{display: 'flex', flexDirection: 'column', position: 'relative', padding: '24px',alignItems: 'center'}}>
             <div style={{
                 position: 'absolute',
                 left: 0,
@@ -37,12 +37,12 @@ export const Section1 = () => {
                 justifyContent: 'center',
                 borderRadius: '20px' 
             }}>
-                <span style={{color: '#FE7469', fontSize: 20, fontWeight: 700}}>1</span>
+                <span style={{color: '#FE7469', fontSize: 20, fontWeight: 700}}>2</span>
             </div>
-            <img src={Step2} alt="Step2" />
-            <span style={{fontSize: 16, fontWeight: 700, color: '#222222', marginTop: 16}}>Programa un recorrido</span>
+            <img src={Step2} alt="Step2"  style={{width: 255, height: 173}}/>
+            <span style={{fontSize: 16, fontWeight: 700, color: '#222222', marginTop: 24}}>Programa un recorrido</span>
         </div>
-        <div style={{display: 'flex', flexDirection: 'column', position: 'relative', padding: '24px'}}>
+        <div style={{display: 'flex', flexDirection: 'column', position: 'relative', padding: '24px', alignItems: 'center'}}>
             <div style={{
                 position: 'absolute',
                 left: 0,
@@ -55,10 +55,10 @@ export const Section1 = () => {
                 justifyContent: 'center',
                 borderRadius: '20px' 
             }}>
-                <span style={{color: '#FE7469', fontSize: 20, fontWeight: 700}}>1</span>
+                <span style={{color: '#FE7469', fontSize: 20, fontWeight: 700}}>3</span>
             </div>
-            <img src={Step3} alt="Step3" />
-            <span style={{fontSize: 16, fontWeight: 700, color: '#222222', marginTop: 16}}>Haz tu oferta en línea un recorrido</span>
+            <img src={Step3} alt="Step3" style={{width: 229, height: 173}} />
+            <span style={{fontSize: 16, fontWeight: 700, color: '#222222', marginTop: 24}}>Haz tu oferta en línea un recorrido</span>
         </div>
     </div>
   )

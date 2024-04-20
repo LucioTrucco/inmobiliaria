@@ -6,13 +6,13 @@ export const ViewBoxHomeFooter = ({selectedValue, setSelectedValue}) => {
   return (
     
     <div className='containerViewBoxFooter'>
-        <span className={`${selectedValue === 'Vende' ? 'selected' : ''}`} >Vende</span>
+        <span onClick={() => setSelectedValue('Vende')} className={`${selectedValue === 'Vende' ? 'selected' : ''}`} >Vende</span>
         <div className='row-divider'/>
-        <span className={`${selectedValue === 'Compra' ? 'selected' : ''}`} >Compra</span>
+        <span onClick={() => setSelectedValue('Compra')} className={`${selectedValue === 'Compra' ? 'selected' : ''}`} >Compra</span>
         <div className='row-divider'/>
-        <span className={`${selectedValue === 'Alquila' ? 'selected' : ''}`} >Alquila</span>
+        <span onClick={() => setSelectedValue('Alquila')} className={`${selectedValue === 'Alquila' ? 'selected' : ''}`} >Alquila</span>
         <div className='row-divider'/>
-        <span className={`${selectedValue === 'Hipoteca' ? 'selected' : ''}`} >Hipoteca</span>
+        <span onClick={() => setSelectedValue('Hipoteca')} className={`${selectedValue === 'Hipoteca' ? 'selected' : ''}`} >Hipoteca</span>
     </div>
   )
 }
