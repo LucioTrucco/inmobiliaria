@@ -1,9 +1,11 @@
 import React from 'react'
 import './ViewBoxHome.css'
-import { ViewBoxHomeFooter } from '../ViewBoxHomeFooter/ViewBoxHomeFooter.tsx'
+import { ViewBoxHomeFooter } from '../ViewBoxHomeFooter/ViewBoxHomeFooter.jsx'
+import brandsImage from '../../../../assets/BrandsImage.png'
 
-export const ViewBoxHome = () => {
+export const ViewBoxHome = ({selectedValue, setSelectedValue}) => {
   return (
+    <>
     <div className='container'>
         <div className='topSideContainer'>
           <h1>Compra la casa de tus sueños</h1>
@@ -17,8 +19,12 @@ export const ViewBoxHome = () => {
           </div>
           
         </div>
-        <ViewBoxHomeFooter/>
+        <ViewBoxHomeFooter selectedValue={selectedValue} setSelectedValue={setSelectedValue}/>
     </div>
+    <div > 
+        <img src={brandsImage} alt="Descriptive text" />
+      </div>
+    </>
   )
 }
 

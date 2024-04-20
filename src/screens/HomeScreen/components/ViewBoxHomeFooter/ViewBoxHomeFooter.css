@@ -2,7 +2,7 @@
     display: flex;
     align-self: center;
     justify-content: space-between;
-    padding-bottom: 24px;
+    padding-bottom: 48px;
     width: 85%;
 }
 
@@ -18,3 +18,11 @@
     background: #FFFFFF;
     border-radius: 24px;
 }
+
+.selected {
+    text-decoration: underline;
+    text-decoration-color: #FE7469; 
+    text-decoration-thickness: 2px;
+    text-underline-offset: 12px
+  }
+  
