@@ -15,7 +15,7 @@ export const Footer = ({selectedValue}) => {
         </div>
       </>}
       {selectedValue === 'Vende' &&<>
-        <span>Alquilar</span>
+        <span>Vende tu casa</span>
         <span>¿Como funciona la venta?</span>
         <span>¿Por qué Dikala?</span>
         <span>Opiniones</span>

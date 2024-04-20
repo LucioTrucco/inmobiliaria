@@ -86,7 +86,7 @@ export const Contact = () => {
             <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center',padding: '48px 48px 12px 48px'}}>
               <span style={{fontSize: 32, fontWeight: 700, color: '#222222', textAlign: 'left'}}>Habla con un experto</span>
               <span style={{fontSize: 14, fontWeight: 400, color: '#222222', textAlign: 'left'}}>Un asesor comercial te asesorará en el proceso y te dará una valoración de tu inmueble.</span>
-              <div style={{marginTop: 0, display: 'flex', flexDirection: 'row', marginTop: 12,}}>
+              <div style={{ display: 'flex', flexDirection: 'row', marginTop: 12,}}>
                 <div style={{width: 50}}>
                   <span style={{fontSize: 40, fontWeight: 700,color: '#FFACA6'}}>01</span>
                 </div>
